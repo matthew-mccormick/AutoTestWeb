@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AutomationPracticeJourneyTests/AutomationPracticeJourneyTests.iml" filepath="$PROJECT_DIR$/AutomationPracticeJourneyTests/AutomationPracticeJourneyTests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AutomationPracticePage/AutomationPracticePage.iml" filepath="$PROJECT_DIR$/AutomationPracticePage/AutomationPracticePage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AutomationPracticeTests.iml" filepath="$PROJECT_DIR$/AutomationPracticeTests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utilities/utilities.iml" filepath="$PROJECT_DIR$/utilities/utilities.iml" />
+    </modules>
+  </component>
+</project>

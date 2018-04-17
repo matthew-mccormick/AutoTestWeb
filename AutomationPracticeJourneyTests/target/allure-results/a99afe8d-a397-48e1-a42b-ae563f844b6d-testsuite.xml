@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1523566785517" stop="1523566795837" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : AutomationPracticeTests</name>
+    <title>Default Suite : AutomationPracticeTests</title>
+    <test-cases>
+        <test-case start="1523566788316" stop="1523566794761" status="passed">
+            <name>registerNewUser</name>
+            <description>Registering a new user at Automation Practice</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="AutomationPracticeTests"/>
+                <label name="testClass" value="Journey1.registerNewUser"/>
+                <label name="testMethod" value="registerNewUser"/>
+                <label name="testId" value="RegNew1"/>
+                <label name="host" value="W10170118"/>
+                <label name="thread" value="16000@W10170118.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
