@@ -21,6 +21,10 @@ public class LandingPage extends BasePage<LandingPage> {
     private static WebElement SignInButton;
 
 
+    @Visible
+    @Name("T-Shirts Tab")
+    @FindBy(css = "#block_top_menu > ul > li:nth-child(3) > a")
+    private static WebElement tShirtsTab;
 
     //Methods
 
@@ -32,10 +36,19 @@ public class LandingPage extends BasePage<LandingPage> {
 
     }
     @Step("Click Sign In")
-    public static LandingPage clickSignIn()
+    public RegisterSignInPage clickSignIn()
     {
         SignInButton.click();
+        return PageFactory.newInstance(RegisterSignInPage.class);
+    }
+
+    @Step("click T-Shirts tab")
+    public LandingPage clickTShirtsTab()
+    {
+        tShirtsTab.click();
         return PageFactory.newInstance(LandingPage.class);
     }
+
+
 
 }
