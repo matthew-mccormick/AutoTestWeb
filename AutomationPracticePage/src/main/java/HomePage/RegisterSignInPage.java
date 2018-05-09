@@ -13,48 +13,38 @@ import static com.google.common.truth.Truth.assertThat;
 
 public class RegisterSignInPage extends BasePage<RegisterSignInPage>
 {
-
-    //@Visible
+    //Elements
+    @Visible
     @Name("Email Textbox")
     @FindBy(id = "email")
     private WebElement emailTextField;
 
-    //@Visible
+    @Visible
     @Name("Password Textbox")
     @FindBy(id = "passwd")
     private WebElement passwordTextField;
 
-    //@Visible
+    @Visible
     @Name("Login Button")
     @FindBy(id = "SubmitLogin")
     private WebElement loginButton;
-
+    //Methods
     @Step("Enter email address")
     public RegisterSignInPage sendEmailText(String email)
     {
         emailTextField.sendKeys(email);
-        return PageFactory.newInstance(RegisterSignInPage.class);
+        return this;
     }
     @Step("Enter Password")
     public RegisterSignInPage sendPasswordText(String password)
     {
         passwordTextField.sendKeys(password);
-        return PageFactory.newInstance(RegisterSignInPage.class);
+        return this;
     }
-
-
     @Step("Click login for existing user")
-    public RegisterSignInPage clickLogin()
+    public AccountPage clickLoginButton()
     {
         loginButton.click();
-        return PageFactory.newInstance(RegisterSignInPage.class);
-    }
-
-    @Step("go to account page")
-    public AccountPage goToAccountPage()
-    {
         return PageFactory.newInstance(AccountPage.class);
     }
-
-
 }

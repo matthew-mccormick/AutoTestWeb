@@ -9,15 +9,16 @@ import ru.yandex.qatools.htmlelements.annotations.Name;
 
 public class AccountPage extends BasePage<AccountPage>
 {
+    //Elements
 
-        @Visible
-        @Name("My Account Header")
-        @FindBy(className = "page-heading")
-        private static WebElement loginHeaderSuccess;
-
-        @Step("Verify My Account is displayed")
-        public String getLoginSuccessText()
-        {
-            return loginHeaderSuccess.getText().trim().toLowerCase();
-        }
+    @Visible
+    @Name("My Account Header")
+    @FindBy(className = "page-heading")
+    private WebElement loginHeaderSuccess;
+    //Methods
+    @Step("Verify My Account is displayed")
+    public String getLoginSuccessText()
+    {
+        return loginHeaderSuccess.getText().trim().toLowerCase();
+    }
 }
