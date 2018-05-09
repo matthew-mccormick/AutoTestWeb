@@ -23,7 +23,7 @@ public class LandingPage extends BasePage<LandingPage> {
     @FindBy(className = "login")
     private static WebElement SignInButton;
 
-    //@Visible
+    @Visible
     @Name("T-Shirts Tab")
     @FindBy(css = "[href*='http://automationpractice.com/index.php?id_category='][href$='&controller=category']") //css = "#block_top_menu > ul > li:nth-child(3) > a" "a[title=T-shirts]"
     private List<WebElement> navBarList;
