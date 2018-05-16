@@ -6,10 +6,7 @@ import com.frameworkium.core.ui.pages.PageFactory;
 import ru.yandex.qatools.htmlelements.annotations.Name;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.testng.Assert;
 import ru.yandex.qatools.allure.annotations.Step;
-
-import static com.google.common.truth.Truth.assertThat;
 
 public class RegisterSignInPage extends BasePage<RegisterSignInPage>
 {
