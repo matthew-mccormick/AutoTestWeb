@@ -2,138 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6b5c3eb-c977-4972-a1b3-8d245da9ee27" name="Default" comment="Added new NavTab method to cover all tabs in header page.">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_frameworkium_frameworkium_core_2_7_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_1_jre.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_truth_truth_0_39.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_paulhammant_ngwebdriver_1_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_saucelabs_sauce_java_common_2_1_23.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_saucelabs_sauce_testng_2_1_23.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_saucelabs_saucerest_1_0_36.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_9_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_13_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_api_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_validator_commons_validator_1_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_html_0_2_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_java_1_2_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_junit_1_2_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_jvm_deps_1_0_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_testng_1_2_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_gherkin_2_12_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_appium_java_client_5_0_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_path_3_0_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_3_0_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_common_3_0_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_xml_path_3_0_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_12.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_qualitycheck_quality_check_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_uadetector_uadetector_core_0_9_22.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_uadetector_uadetector_resources_2014_10.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_9_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_9_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_10_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tika_tika_core_1_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_all_2_4_13.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20180130.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_jaxb2_commons_jaxb2_basics_runtime_0_9_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openpnp_opencv_3_2_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_10_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_10_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_10_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_10_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_10_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_10_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_10_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_10_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_10_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_10_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_25.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_0_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_0_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_0_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_0_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_0_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_0_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_14_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_20.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_qatools_commons_properties_2_0_RC5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_commons_1_5_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_cucumber_jvm_adaptor_1_6_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_java_adaptor_api_1_5_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_java_annotations_1_5_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_java_aspects_1_5_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_model_1_5_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_testng_adaptor_1_5_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_htmlelements_htmlelements_java_1_18.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/screenshots/1525782900887_loginAsExistingUser.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/screenshots/1525782936063_loginAsExistingUser.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/screenshots/1525784962237_loginAsExistingUser.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/screenshots/1525867237792_addNewItemsToBasket.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/screenshots/1525867356232_addNewItemsToBasket.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/screenshots/1525867526264_addNewItemsToBasket.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/screenshots/1525867744245_addNewItemsToBasket.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/screenshots/1525867829860_addNewItemsToBasket.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/screenshots/1525868120131_addNewItemsToBasket.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/screenshots/1525868281061_addNewItemsToBasket.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/screenshots/1525868482935_addNewItemsToBasket.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/screenshots/1525868531791_addNewItemsToBasket.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/screenshots/1525868625375_addNewItemsToBasket.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/target/allure-results/1f364ea8-df8b-4a73-835a-12b606b24483-testsuite.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/target/allure-results/2de8c7a7-1120-4c29-b722-c6f293fb17d4-testsuite.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/target/allure-results/38e315d6-3a95-4552-b809-2e9c081a2465-testsuite.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/target/allure-results/58719713-4221-421e-9ca6-c9d192debc9e-testsuite.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/target/allure-results/66651d81-def0-4b59-9eb9-1fd113abc095-testsuite.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/target/allure-results/68f731bf-20c6-4942-864f-78b87917cb5e-testsuite.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/target/allure-results/a9887e8e-24d0-4cca-b353-0f745acee59d-testsuite.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/target/allure-results/ae1be237-bb14-4200-84c5-13ece29f684d-testsuite.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/target/allure-results/c73b2a7b-9a38-40a6-8330-8ad15e5857b6-testsuite.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/target/allure-results/c756642a-229f-4a43-acf5-2387013dcb03-testsuite.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/target/allure-results/d02d2219-44e5-4829-8a8d-6c51761b0910-testsuite.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/target/allure-results/d0b02d2a-929f-4650-81d1-8b0858d82461-testsuite.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/target/allure-results/d7a0d0b5-a9e0-4293-abbf-b3b084ea7372-testsuite.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/target/classes/Journey1/addItemsToBasket.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/target/classes/Journey1/loginExistingUser.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticePage/src/main/java/HomePage/HeaderBarPage.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/itemCategoryPage.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/itemIndividualPage.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/modal/AddToCartModal.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticePage/target/classes/HomePage/AccountPage.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticePage/target/classes/HomePage/RegisterSignInPage.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AutomationPracticePage/target/classes/HomePage/tShirtsPage.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/utilities/src/main/java/constants/randGenerator.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/AutomationPracticeJourneyTests/logs/frameworkium.log" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/logs/frameworkium.log" />
-      <change beforePath="$PROJECT_DIR$/AutomationPracticeJourneyTests/src/main/java/Journey1/addItemsToBasket.java" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/src/main/java/Journey1/addItemsToBasket.java" />
-      <change beforePath="$PROJECT_DIR$/AutomationPracticeJourneyTests/target/allure-results/environment.properties" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/target/allure-results/environment.properties" />
-      <change beforePath="$PROJECT_DIR$/AutomationPracticePage/src/main/java/HomePage/LandingPage.java" afterPath="$PROJECT_DIR$/AutomationPracticePage/src/main/java/HomePage/LandingPage.java" />
-      <change beforePath="$PROJECT_DIR$/AutomationPracticePage/src/main/java/HomePage/RegisterSignInPage.java" afterPath="$PROJECT_DIR$/AutomationPracticePage/src/main/java/HomePage/RegisterSignInPage.java" />
-      <change beforePath="$PROJECT_DIR$/AutomationPracticePage/target/classes/HomePage/LandingPage.class" afterPath="$PROJECT_DIR$/AutomationPracticePage/target/classes/HomePage/LandingPage.class" />
-      <change beforePath="$PROJECT_DIR$/utilities/src/main/java/constants/Navigation.java" afterPath="$PROJECT_DIR$/utilities/src/main/java/constants/Navigation.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/AutomationPracticeJourneyTests/target/" />
@@ -153,7 +22,7 @@
       <file leaf-file-name="addItemsToBasket.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AutomationPracticeJourneyTests/src/main/java/Journey1/addItemsToBasket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
+            <state relative-caret-position="357">
               <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -198,7 +67,7 @@
       <file leaf-file-name="itemIndividualPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/itemIndividualPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="84">
               <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -211,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/modal/AddToCartModal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -292,6 +161,9 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -427,9 +299,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -753,7 +622,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-273" width="1298" height="1042" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -768,7 +636,6 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28046876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852387" sideWeight="0.49140626" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -781,6 +648,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278328" sideWeight="0.48958334" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852387" sideWeight="0.49140626" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1094,7 +962,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="994" column="0" lean-forward="false" selection-start-line="994" selection-start-column="0" selection-end-line="994" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1125,7 +992,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AutomationPracticeJourneyTests/src/main/java/Journey1/addItemsToBasket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
+        <state relative-caret-position="357">
           <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1143,7 +1010,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/itemIndividualPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="84">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1154,19 +1021,12 @@
     <entry file="file://$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/modal/AddToCartModal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/Elements/ProductElements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/Elements/ProductElements.java" />
     <entry file="file://$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/itemCategoryPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
