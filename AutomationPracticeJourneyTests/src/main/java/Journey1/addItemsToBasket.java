@@ -1,6 +1,7 @@
 package Journey1;
 
 import com.frameworkium.core.ui.tests.BaseUITest;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import productCategories.itemIndividualPage;
 import ru.yandex.qatools.allure.annotations.TestCaseId;
