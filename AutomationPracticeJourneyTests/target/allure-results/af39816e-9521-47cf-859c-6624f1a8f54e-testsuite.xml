@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1531136405822" stop="1531136420635" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : AutoTestWeb</name>
+    <title>Default Suite : AutoTestWeb</title>
+    <test-cases>
+        <test-case start="1531136409681" stop="1531136419565" status="passed">
+            <name>loginAsExistingUser[Testing123@testmail.com,s3cur3P4ssw0rd]</name>
+            <description>Registering a new user at Automation Practice</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="AutoTestWeb"/>
+                <label name="testClass" value="Journey1.loginExistingUser"/>
+                <label name="testMethod" value="loginAsExistingUser"/>
+                <label name="testId" value="RegNew1"/>
+                <label name="host" value="ISVGRELT0002689"/>
+                <label name="thread" value="12340@ISVGRELT0002689.TestNG-PoolService-0(15)"/>
+            </labels>
+        </test-case>
+        <test-case start="1531136409681" stop="1531136419379" status="passed">
+            <name>loginAsExistingUser[Testing123@testmail.com,s3cur3P4ssw0rd]</name>
+            <description>Registering a new user at Automation Practice</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="AutoTestWeb"/>
+                <label name="testClass" value="Journey1.loginExistingUser"/>
+                <label name="testMethod" value="loginAsExistingUser"/>
+                <label name="testId" value="RegNew1"/>
+                <label name="host" value="ISVGRELT0002689"/>
+                <label name="thread" value="12340@ISVGRELT0002689.TestNG-PoolService-1(16)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
