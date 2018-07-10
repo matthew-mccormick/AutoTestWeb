@@ -19255,3 +19255,105 @@ com.google.common.truth.Platform$ComparisonFailureWithCause: expected:<[my accou
 2018-07-10 12:47:18.117 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: page-heading
 2018-07-10 12:47:18.125 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: page-heading
 2018-07-10 12:47:18.142 [main] INFO  com.frameworkium.core.common.listeners.TestListener - PASS  Journey1.loginExistingUser.loginAsExistingUser
+2018-07-10 13:17:10.056 [main] DEBUG com.frameworkium.core.ui.driver.AbstractDriver - All protocols to use proxy address: 172.17.7.1:8080
+2018-07-10 13:17:10.083 [main] DEBUG com.frameworkium.core.ui.driver.AbstractDriver - Browser Capabilities: Capabilities {browserName: chrome, chrome.prefs: {profile.password_manager_enabled: false}, chrome.switches: [--no-default-browser-check], proxy: Proxy(manual, ftp=172.17.7....}
+2018-07-10 13:17:13.215 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return navigator.userAgent;
+2018-07-10 13:17:13.245 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return navigator.userAgent;
+2018-07-10 13:17:13.246 [main] INFO  com.frameworkium.core.common.listeners.TestListener - START Journey1.loginExistingUser.loginAsExistingUser
+2018-07-10 13:17:13.284 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - navigate to http://automationpractice.com/index.php
+2018-07-10 13:17:15.946 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - navigated to http://automationpractice.com/index.php
+2018-07-10 13:17:15.985 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: login
+2018-07-10 13:17:16.003 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: login
+2018-07-10 13:17:16.034 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-10 13:17:16.041 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-10 13:17:16.041 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-10 13:17:16.045 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-10 13:17:16.046 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.LandingPage' successfully loaded
+2018-07-10 13:17:16.046 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: login
+2018-07-10 13:17:16.055 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: login
+2018-07-10 13:17:16.055 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: login
+2018-07-10 13:17:18.010 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: login
+2018-07-10 13:17:18.012 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: email
+2018-07-10 13:17:18.029 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: email
+2018-07-10 13:17:18.044 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: passwd
+2018-07-10 13:17:18.060 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: passwd
+2018-07-10 13:17:18.075 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: SubmitLogin
+2018-07-10 13:17:18.098 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: SubmitLogin
+2018-07-10 13:17:18.119 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-10 13:17:18.124 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-10 13:17:18.125 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-10 13:17:18.131 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-10 13:17:18.131 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.RegisterSignInPage' successfully loaded
+2018-07-10 13:17:18.131 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: email
+2018-07-10 13:17:18.137 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: email
+2018-07-10 13:17:18.137 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - change value of element with id: email
+2018-07-10 13:17:18.228 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - changed value of element with id: email
+2018-07-10 13:17:18.228 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: passwd
+2018-07-10 13:17:18.240 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: passwd
+2018-07-10 13:17:18.241 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - change value of element with id: passwd
+2018-07-10 13:17:18.330 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - changed value of element with id: passwd
+2018-07-10 13:17:18.331 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: SubmitLogin
+2018-07-10 13:17:18.341 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: SubmitLogin
+2018-07-10 13:17:18.341 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with id: SubmitLogin
+2018-07-10 13:17:20.141 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with id: SubmitLogin
+2018-07-10 13:17:20.143 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: page-heading
+2018-07-10 13:17:20.163 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: page-heading
+2018-07-10 13:17:20.182 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-10 13:17:20.187 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-10 13:17:20.187 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-10 13:17:20.192 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-10 13:17:20.192 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.AccountPage' successfully loaded
+2018-07-10 13:17:20.192 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: page-heading
+2018-07-10 13:17:20.199 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: page-heading
+2018-07-10 13:17:20.226 [main] INFO  com.frameworkium.core.common.listeners.TestListener - PASS  Journey1.loginExistingUser.loginAsExistingUser
+2018-07-10 13:17:21.150 [main] DEBUG com.frameworkium.core.ui.driver.AbstractDriver - All protocols to use proxy address: 172.17.7.1:8080
+2018-07-10 13:17:21.151 [main] DEBUG com.frameworkium.core.ui.driver.AbstractDriver - Browser Capabilities: Capabilities {browserName: chrome, chrome.prefs: {profile.password_manager_enabled: false}, chrome.switches: [--no-default-browser-check], proxy: Proxy(manual, ftp=172.17.7....}
+2018-07-10 13:17:23.420 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return navigator.userAgent;
+2018-07-10 13:17:23.450 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return navigator.userAgent;
+2018-07-10 13:17:23.450 [main] INFO  com.frameworkium.core.common.listeners.TestListener - START Journey1.loginExistingUser.loginAsExistingUser
+2018-07-10 13:17:23.453 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - navigate to http://automationpractice.com/index.php
+2018-07-10 13:17:27.344 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - navigated to http://automationpractice.com/index.php
+2018-07-10 13:17:27.345 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: login
+2018-07-10 13:17:27.363 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: login
+2018-07-10 13:17:27.388 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-10 13:17:27.393 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-10 13:17:27.393 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-10 13:17:27.400 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-10 13:17:27.401 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.LandingPage' successfully loaded
+2018-07-10 13:17:27.401 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: login
+2018-07-10 13:17:27.412 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: login
+2018-07-10 13:17:27.412 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: login
+2018-07-10 13:17:43.092 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: login
+2018-07-10 13:17:43.092 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: email
+2018-07-10 13:17:43.120 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: email
+2018-07-10 13:17:43.151 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: passwd
+2018-07-10 13:17:43.169 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: passwd
+2018-07-10 13:17:43.188 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: SubmitLogin
+2018-07-10 13:17:43.210 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: SubmitLogin
+2018-07-10 13:17:43.243 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-10 13:17:43.251 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-10 13:17:43.251 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-10 13:17:43.259 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-10 13:17:43.259 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.RegisterSignInPage' successfully loaded
+2018-07-10 13:17:43.260 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: email
+2018-07-10 13:17:43.271 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: email
+2018-07-10 13:17:43.271 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - change value of element with id: email
+2018-07-10 13:17:43.379 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - changed value of element with id: email
+2018-07-10 13:17:43.379 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: passwd
+2018-07-10 13:17:43.392 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: passwd
+2018-07-10 13:17:43.393 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - change value of element with id: passwd
+2018-07-10 13:17:43.491 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - changed value of element with id: passwd
+2018-07-10 13:17:43.491 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: SubmitLogin
+2018-07-10 13:17:43.500 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: SubmitLogin
+2018-07-10 13:17:43.500 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with id: SubmitLogin
+2018-07-10 13:17:44.862 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with id: SubmitLogin
+2018-07-10 13:17:44.862 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: page-heading
+2018-07-10 13:17:44.878 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: page-heading
+2018-07-10 13:17:44.900 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-10 13:17:44.905 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-10 13:17:44.905 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-10 13:17:44.911 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-10 13:17:44.911 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.AccountPage' successfully loaded
+2018-07-10 13:17:44.911 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: page-heading
+2018-07-10 13:17:44.919 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: page-heading
+2018-07-10 13:17:44.934 [main] INFO  com.frameworkium.core.common.listeners.TestListener - PASS  Journey1.loginExistingUser.loginAsExistingUser
