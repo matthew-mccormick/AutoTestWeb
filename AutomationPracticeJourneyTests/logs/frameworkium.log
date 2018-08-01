@@ -19357,3 +19357,1181 @@ com.google.common.truth.Platform$ComparisonFailureWithCause: expected:<[my accou
 2018-07-10 13:17:44.911 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: page-heading
 2018-07-10 13:17:44.919 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: page-heading
 2018-07-10 13:17:44.934 [main] INFO  com.frameworkium.core.common.listeners.TestListener - PASS  Journey1.loginExistingUser.loginAsExistingUser
+2018-07-12 16:14:53.863 [main] ERROR com.frameworkium.core.common.listeners.TestListener - FAIL  Journey1.loginExistingUser.loginAsExistingUser
+2018-07-12 16:14:53.866 [main] ERROR com.frameworkium.core.common.listeners.TestListener - 
+Method public void Journey1.loginExistingUser.loginAsExistingUser(java.lang.String,java.lang.String) requires a @DataProvider named : existingUsers in class DataProviders.accounts
+org.testng.TestNGException: 
+Method public void Journey1.loginExistingUser.loginAsExistingUser(java.lang.String,java.lang.String) requires a @DataProvider named : existingUsers in class DataProviders.accounts
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:513) ~[testng-6.14.2.jar:?]
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:691) ~[testng-6.14.2.jar:?]
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49) ~[testng-6.14.2.jar:?]
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37) ~[testng-6.14.2.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:923) [testng-6.14.2.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125) [testng-6.14.2.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109) [testng-6.14.2.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:648) [testng-6.14.2.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:505) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1049) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.2.jar:?]
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72) [testng-plugin.jar:?]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123) [testng-plugin.jar:?]
+2018-07-12 16:16:35.741 [main] ERROR com.frameworkium.core.common.listeners.TestListener - FAIL  Journey1.loginExistingUser.loginAsExistingUser
+2018-07-12 16:16:35.744 [main] ERROR com.frameworkium.core.common.listeners.TestListener - 
+Method public void Journey1.loginExistingUser.loginAsExistingUser(java.lang.String,java.lang.String) requires a @DataProvider named : existingUsers in class DataProviders.accounts
+org.testng.TestNGException: 
+Method public void Journey1.loginExistingUser.loginAsExistingUser(java.lang.String,java.lang.String) requires a @DataProvider named : existingUsers in class DataProviders.accounts
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:513) ~[testng-6.14.2.jar:?]
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:691) ~[testng-6.14.2.jar:?]
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49) ~[testng-6.14.2.jar:?]
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37) ~[testng-6.14.2.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:923) [testng-6.14.2.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125) [testng-6.14.2.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109) [testng-6.14.2.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:648) [testng-6.14.2.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:505) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1049) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.2.jar:?]
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72) [testng-plugin.jar:?]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123) [testng-plugin.jar:?]
+2018-07-12 16:16:55.156 [main] ERROR com.frameworkium.core.common.listeners.TestListener - FAIL  Journey1.loginExistingUser.loginAsExistingUser
+2018-07-12 16:16:55.160 [main] ERROR com.frameworkium.core.common.listeners.TestListener - 
+Method public void Journey1.loginExistingUser.loginAsExistingUser(java.lang.String,java.lang.String) requires a @DataProvider named : existingUsers in class DataProviders.accounts
+org.testng.TestNGException: 
+Method public void Journey1.loginExistingUser.loginAsExistingUser(java.lang.String,java.lang.String) requires a @DataProvider named : existingUsers in class DataProviders.accounts
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:513) ~[testng-6.14.2.jar:?]
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:691) ~[testng-6.14.2.jar:?]
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49) ~[testng-6.14.2.jar:?]
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37) ~[testng-6.14.2.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:923) [testng-6.14.2.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125) [testng-6.14.2.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109) [testng-6.14.2.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:648) [testng-6.14.2.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:505) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1049) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.2.jar:?]
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72) [testng-plugin.jar:?]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123) [testng-plugin.jar:?]
+2018-07-12 16:18:01.302 [main] ERROR com.frameworkium.core.common.listeners.TestListener - FAIL  Journey1.loginExistingUser.loginAsExistingUser
+2018-07-12 16:18:01.306 [main] ERROR com.frameworkium.core.common.listeners.TestListener - 
+Method public void Journey1.loginExistingUser.loginAsExistingUser(java.lang.String,java.lang.String) requires a @DataProvider named : existingUsers
+org.testng.TestNGException: 
+Method public void Journey1.loginExistingUser.loginAsExistingUser(java.lang.String,java.lang.String) requires a @DataProvider named : existingUsers
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:513) ~[testng-6.14.2.jar:?]
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:691) ~[testng-6.14.2.jar:?]
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49) ~[testng-6.14.2.jar:?]
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37) ~[testng-6.14.2.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:923) [testng-6.14.2.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125) [testng-6.14.2.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109) [testng-6.14.2.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:648) [testng-6.14.2.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:505) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1049) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.2.jar:?]
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72) [testng-plugin.jar:?]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123) [testng-plugin.jar:?]
+2018-07-12 16:18:41.999 [main] DEBUG com.frameworkium.core.ui.driver.AbstractDriver - Browser Capabilities: Capabilities {browserName: chrome, chrome.prefs: {profile.password_manager_enabled: false}, chrome.switches: [--no-default-browser-check]}
+2018-07-12 16:18:45.452 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return navigator.userAgent;
+2018-07-12 16:18:45.485 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return navigator.userAgent;
+2018-07-12 16:18:45.488 [main] INFO  com.frameworkium.core.common.listeners.TestListener - START Journey1.loginExistingUser.loginAsExistingUser
+2018-07-12 16:18:45.523 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - navigate to http://automationpractice.com/index.php
+2018-07-12 16:18:53.133 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - navigated to http://automationpractice.com/index.php
+2018-07-12 16:18:53.229 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: login
+2018-07-12 16:18:53.261 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: login
+2018-07-12 16:18:53.316 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 16:18:53.329 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 16:18:53.329 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 16:18:53.340 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 16:18:53.341 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.LandingPage' successfully loaded
+2018-07-12 16:18:53.341 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: login
+2018-07-12 16:18:53.357 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: login
+2018-07-12 16:18:53.357 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: login
+2018-07-12 16:18:55.363 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: login
+2018-07-12 16:18:55.373 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: email
+2018-07-12 16:18:55.402 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: email
+2018-07-12 16:18:55.422 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: passwd
+2018-07-12 16:18:55.443 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: passwd
+2018-07-12 16:18:55.465 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: SubmitLogin
+2018-07-12 16:18:55.481 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: SubmitLogin
+2018-07-12 16:18:55.503 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 16:18:55.510 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 16:18:55.510 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 16:18:55.516 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 16:18:55.516 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.RegisterSignInPage' successfully loaded
+2018-07-12 16:18:55.516 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: email
+2018-07-12 16:18:55.529 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: email
+2018-07-12 16:18:55.529 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - change value of element with id: email
+2018-07-12 16:18:55.631 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - changed value of element with id: email
+2018-07-12 16:18:55.631 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: passwd
+2018-07-12 16:18:55.640 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: passwd
+2018-07-12 16:18:55.641 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - change value of element with id: passwd
+2018-07-12 16:18:55.720 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - changed value of element with id: passwd
+2018-07-12 16:18:55.721 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: SubmitLogin
+2018-07-12 16:18:55.731 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: SubmitLogin
+2018-07-12 16:18:55.731 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with id: SubmitLogin
+2018-07-12 16:18:57.516 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with id: SubmitLogin
+2018-07-12 16:18:57.518 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: page-heading
+2018-07-12 16:18:57.543 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: page-heading
+2018-07-12 16:18:57.567 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 16:18:57.574 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 16:18:57.574 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 16:18:57.579 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 16:18:57.579 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.AccountPage' successfully loaded
+2018-07-12 16:18:57.580 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: page-heading
+2018-07-12 16:18:57.590 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: page-heading
+2018-07-12 16:18:57.620 [main] INFO  com.frameworkium.core.common.listeners.TestListener - PASS  Journey1.loginExistingUser.loginAsExistingUser
+2018-07-12 16:18:58.532 [main] DEBUG com.frameworkium.core.ui.driver.AbstractDriver - Browser Capabilities: Capabilities {browserName: chrome, chrome.prefs: {profile.password_manager_enabled: false}, chrome.switches: [--no-default-browser-check]}
+2018-07-12 16:19:01.017 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return navigator.userAgent;
+2018-07-12 16:19:01.054 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return navigator.userAgent;
+2018-07-12 16:19:01.055 [main] INFO  com.frameworkium.core.common.listeners.TestListener - START Journey1.loginExistingUser.loginAsExistingUser
+2018-07-12 16:19:01.058 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - navigate to http://automationpractice.com/index.php
+2018-07-12 16:19:06.015 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - navigated to http://automationpractice.com/index.php
+2018-07-12 16:19:06.016 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: login
+2018-07-12 16:19:06.043 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: login
+2018-07-12 16:19:06.073 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 16:19:06.081 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 16:19:06.082 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 16:19:06.089 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 16:19:06.089 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.LandingPage' successfully loaded
+2018-07-12 16:19:06.089 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: login
+2018-07-12 16:19:06.106 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: login
+2018-07-12 16:19:06.107 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: login
+2018-07-12 16:19:07.722 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: login
+2018-07-12 16:19:07.723 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: email
+2018-07-12 16:19:07.744 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: email
+2018-07-12 16:19:07.762 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: passwd
+2018-07-12 16:19:07.782 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: passwd
+2018-07-12 16:19:07.798 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: SubmitLogin
+2018-07-12 16:19:07.815 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: SubmitLogin
+2018-07-12 16:19:07.839 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 16:19:07.844 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 16:19:07.845 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 16:19:07.850 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 16:19:07.850 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.RegisterSignInPage' successfully loaded
+2018-07-12 16:19:07.851 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: email
+2018-07-12 16:19:07.861 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: email
+2018-07-12 16:19:07.862 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - change value of element with id: email
+2018-07-12 16:19:07.967 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - changed value of element with id: email
+2018-07-12 16:19:07.967 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: passwd
+2018-07-12 16:19:07.977 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: passwd
+2018-07-12 16:19:07.977 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - change value of element with id: passwd
+2018-07-12 16:19:08.091 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - changed value of element with id: passwd
+2018-07-12 16:19:08.091 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: SubmitLogin
+2018-07-12 16:19:08.102 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: SubmitLogin
+2018-07-12 16:19:08.103 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with id: SubmitLogin
+2018-07-12 16:19:09.814 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with id: SubmitLogin
+2018-07-12 16:19:09.814 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: page-heading
+2018-07-12 16:19:09.830 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: page-heading
+2018-07-12 16:19:09.848 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 16:19:09.854 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 16:19:09.854 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 16:19:09.860 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 16:19:09.860 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.AccountPage' successfully loaded
+2018-07-12 16:19:09.860 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: page-heading
+2018-07-12 16:19:09.869 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: page-heading
+2018-07-12 16:19:09.887 [main] INFO  com.frameworkium.core.common.listeners.TestListener - PASS  Journey1.loginExistingUser.loginAsExistingUser
+2018-07-12 16:19:56.057 [main] DEBUG com.frameworkium.core.ui.driver.AbstractDriver - Browser Capabilities: Capabilities {browserName: chrome, chrome.prefs: {profile.password_manager_enabled: false}, chrome.switches: [--no-default-browser-check]}
+2018-07-12 16:19:59.348 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return navigator.userAgent;
+2018-07-12 16:19:59.377 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return navigator.userAgent;
+2018-07-12 16:19:59.379 [main] INFO  com.frameworkium.core.common.listeners.TestListener - START Journey1.loginExistingUser.loginAsExistingUser
+2018-07-12 16:19:59.411 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - navigate to http://automationpractice.com/index.php
+2018-07-12 16:20:04.512 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - navigated to http://automationpractice.com/index.php
+2018-07-12 16:20:04.558 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: login
+2018-07-12 16:20:04.578 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: login
+2018-07-12 16:20:04.610 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 16:20:04.617 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 16:20:04.617 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 16:20:04.623 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 16:20:04.624 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.LandingPage' successfully loaded
+2018-07-12 16:20:04.624 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: login
+2018-07-12 16:20:04.634 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: login
+2018-07-12 16:20:04.634 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: login
+2018-07-12 16:20:06.055 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: login
+2018-07-12 16:20:06.064 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: email
+2018-07-12 16:20:06.101 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: email
+2018-07-12 16:20:06.127 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: passwd
+2018-07-12 16:20:06.154 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: passwd
+2018-07-12 16:20:06.177 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: SubmitLogin
+2018-07-12 16:20:06.199 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: SubmitLogin
+2018-07-12 16:20:06.230 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 16:20:06.238 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 16:20:06.238 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 16:20:06.245 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 16:20:06.245 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.RegisterSignInPage' successfully loaded
+2018-07-12 16:20:06.245 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: email
+2018-07-12 16:20:06.257 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: email
+2018-07-12 16:20:06.258 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - change value of element with id: email
+2018-07-12 16:20:06.418 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - changed value of element with id: email
+2018-07-12 16:20:06.419 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: passwd
+2018-07-12 16:20:06.431 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: passwd
+2018-07-12 16:20:06.432 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - change value of element with id: passwd
+2018-07-12 16:20:06.560 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - changed value of element with id: passwd
+2018-07-12 16:20:06.560 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: SubmitLogin
+2018-07-12 16:20:06.569 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: SubmitLogin
+2018-07-12 16:20:06.569 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with id: SubmitLogin
+2018-07-12 16:20:08.331 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with id: SubmitLogin
+2018-07-12 16:20:08.333 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: page-heading
+2018-07-12 16:20:08.349 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: page-heading
+2018-07-12 16:20:08.369 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 16:20:08.375 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 16:20:08.375 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 16:20:08.382 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 16:20:08.382 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.AccountPage' successfully loaded
+2018-07-12 16:20:08.382 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: page-heading
+2018-07-12 16:20:08.391 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: page-heading
+2018-07-12 16:20:08.420 [main] INFO  com.frameworkium.core.common.listeners.TestListener - PASS  Journey1.loginExistingUser.loginAsExistingUser
+2018-07-12 16:20:09.326 [main] DEBUG com.frameworkium.core.ui.driver.AbstractDriver - Browser Capabilities: Capabilities {browserName: chrome, chrome.prefs: {profile.password_manager_enabled: false}, chrome.switches: [--no-default-browser-check]}
+2018-07-12 16:20:11.570 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return navigator.userAgent;
+2018-07-12 16:20:11.630 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return navigator.userAgent;
+2018-07-12 16:20:11.630 [main] INFO  com.frameworkium.core.common.listeners.TestListener - START Journey1.loginExistingUser.loginAsExistingUser
+2018-07-12 16:20:11.634 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - navigate to http://automationpractice.com/index.php
+2018-07-12 16:20:16.738 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - navigated to http://automationpractice.com/index.php
+2018-07-12 16:20:16.738 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: login
+2018-07-12 16:20:16.764 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: login
+2018-07-12 16:20:16.794 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 16:20:16.800 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 16:20:16.800 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 16:20:16.807 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 16:20:16.808 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.LandingPage' successfully loaded
+2018-07-12 16:20:16.808 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: login
+2018-07-12 16:20:16.819 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: login
+2018-07-12 16:20:16.820 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: login
+2018-07-12 16:20:18.372 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: login
+2018-07-12 16:20:18.373 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: email
+2018-07-12 16:20:18.422 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: email
+2018-07-12 16:20:18.445 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: passwd
+2018-07-12 16:20:18.467 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: passwd
+2018-07-12 16:20:18.488 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: SubmitLogin
+2018-07-12 16:20:18.507 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: SubmitLogin
+2018-07-12 16:20:18.531 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 16:20:18.537 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 16:20:18.537 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 16:20:18.543 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 16:20:18.543 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.RegisterSignInPage' successfully loaded
+2018-07-12 16:20:18.544 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: email
+2018-07-12 16:20:18.554 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: email
+2018-07-12 16:20:18.555 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - change value of element with id: email
+2018-07-12 16:20:18.663 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - changed value of element with id: email
+2018-07-12 16:20:18.663 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: passwd
+2018-07-12 16:20:18.672 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: passwd
+2018-07-12 16:20:18.672 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - change value of element with id: passwd
+2018-07-12 16:20:18.776 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - changed value of element with id: passwd
+2018-07-12 16:20:18.776 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: SubmitLogin
+2018-07-12 16:20:18.782 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: SubmitLogin
+2018-07-12 16:20:18.782 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with id: SubmitLogin
+2018-07-12 16:20:20.267 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with id: SubmitLogin
+2018-07-12 16:20:20.268 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: page-heading
+2018-07-12 16:20:20.283 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: page-heading
+2018-07-12 16:20:20.307 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 16:20:20.313 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 16:20:20.314 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 16:20:20.321 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 16:20:20.321 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.AccountPage' successfully loaded
+2018-07-12 16:20:20.321 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: page-heading
+2018-07-12 16:20:20.332 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: page-heading
+2018-07-12 16:20:20.348 [main] INFO  com.frameworkium.core.common.listeners.TestListener - PASS  Journey1.loginExistingUser.loginAsExistingUser
+2018-07-12 17:05:57.397 [main] DEBUG com.frameworkium.core.ui.driver.AbstractDriver - Browser Capabilities: Capabilities {browserName: chrome, chrome.prefs: {profile.password_manager_enabled: false}, chrome.switches: [--no-default-browser-check]}
+2018-07-12 17:06:00.547 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return navigator.userAgent;
+2018-07-12 17:06:00.575 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return navigator.userAgent;
+2018-07-12 17:06:00.577 [main] INFO  com.frameworkium.core.common.listeners.TestListener - START Journey1.addItemsToBasket.addNewItemsToBasket
+2018-07-12 17:06:00.607 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - navigate to http://automationpractice.com/index.php
+2018-07-12 17:06:07.505 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - navigated to http://automationpractice.com/index.php
+2018-07-12 17:06:07.547 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: login
+2018-07-12 17:06:07.567 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: login
+2018-07-12 17:06:07.602 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:06:07.609 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:06:07.609 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:06:07.616 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:06:07.617 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.LandingPage' successfully loaded
+2018-07-12 17:06:07.629 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:06:07.633 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:06:07.634 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:06:07.639 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:06:07.640 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.HeaderBarPage' successfully loaded
+2018-07-12 17:06:07.640 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: [href*='http://automationpractice.com/index.php?id_category='][href$='&controller=category']
+2018-07-12 17:06:07.661 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: [href*='http://automationpractice.com/index.php?id_category='][href$='&controller=category']
+2018-07-12 17:06:07.819 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: [href*='http://automationpractice.com/index.php?id_category='][href$='&controller=category']
+2018-07-12 17:06:09.842 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: [href*='http://automationpractice.com/index.php?id_category='][href$='&controller=category']
+2018-07-12 17:06:09.849 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:06:09.856 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:06:09.856 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:06:09.861 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:06:09.861 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.HeaderBarPage' successfully loaded
+2018-07-12 17:06:09.863 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:06:09.875 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:06:09.876 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:06:09.884 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:06:09.958 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:06:09.961 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:06:09.962 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:06:09.965 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:06:09.965 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'productCategories.itemCategoryPage' successfully loaded
+2018-07-12 17:06:09.965 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:06:09.973 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:06:09.973 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:06:09.982 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:06:09.983 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:06:12.739 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:06:12.739 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:06:12.775 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:06:12.775 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:06:16.081 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:06:16.081 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:06:16.097 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:06:16.097 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:06:17.006 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:06:17.006 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:06:17.020 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:06:17.020 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:06:18.358 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:06:18.358 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:06:18.367 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:06:18.367 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:06:19.651 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:06:19.651 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:06:19.675 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:06:19.675 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:06:20.877 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:06:20.877 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:06:20.896 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:06:20.896 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:06:22.007 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:06:22.008 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:06:22.019 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:06:22.020 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:06:23.247 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:06:23.247 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:06:23.255 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:06:23.255 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:06:25.536 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:06:25.537 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:06:25.560 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:06:25.560 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:06:26.704 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:06:26.705 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:06:26.716 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:06:26.716 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:06:27.577 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:06:27.588 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:06:27.594 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:06:27.595 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:06:27.600 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:06:27.600 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'productCategories.itemIndividualPage' successfully loaded
+2018-07-12 17:06:27.600 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: add_to_cart
+2018-07-12 17:06:27.615 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: add_to_cart
+2018-07-12 17:06:27.615 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with id: add_to_cart
+2018-07-12 17:06:27.667 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with id: add_to_cart
+2018-07-12 17:06:27.683 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:06:27.696 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:06:27.696 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:06:27.703 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:06:27.703 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'productCategories.modal.AddToCartModal' successfully loaded
+2018-07-12 17:06:27.703 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #layer_cart > h2
+2018-07-12 17:06:27.726 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #layer_cart > h2
+2018-07-12 17:06:27.988 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #layer_cart > h2
+2018-07-12 17:06:28.250 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #layer_cart > h2
+2018-07-12 17:06:28.521 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #layer_cart > h2
+2018-07-12 17:06:28.782 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #layer_cart > h2
+2018-07-12 17:06:29.049 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #layer_cart > h2
+2018-07-12 17:06:29.315 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #layer_cart > h2
+2018-07-12 17:06:29.573 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #layer_cart > h2
+2018-07-12 17:06:29.831 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #layer_cart > h2
+2018-07-12 17:06:30.102 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #layer_cart > h2
+2018-07-12 17:06:30.372 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #layer_cart > h2
+2018-07-12 17:06:30.635 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #layer_cart > h2
+2018-07-12 17:06:30.897 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #layer_cart > h2
+2018-07-12 17:06:31.167 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #layer_cart > h2
+2018-07-12 17:06:31.438 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #layer_cart > h2
+2018-07-12 17:06:31.711 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #layer_cart > h2
+2018-07-12 17:06:31.983 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #layer_cart > h2
+2018-07-12 17:06:32.254 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #layer_cart > h2
+2018-07-12 17:06:32.514 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #layer_cart > h2
+2018-07-12 17:06:32.785 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #layer_cart > h2
+2018-07-12 17:06:32.825 [main] ERROR com.frameworkium.core.common.listeners.TestListener - FAIL  Journey1.addItemsToBasket.addNewItemsToBasket
+2018-07-12 17:06:32.825 [main] ERROR com.frameworkium.core.common.listeners.TestListener - Timed out after 5 seconds. Unable to locate the element
+org.openqa.selenium.NoSuchElementException: Timed out after 5 seconds. Unable to locate the element
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:91) ~[selenium-support-3.10.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-3.10.0.jar:?]
+	at ru.yandex.qatools.htmlelements.loader.decorator.proxyhandlers.WebElementNamedProxyHandler.invoke(WebElementNamedProxyHandler.java:44) ~[htmlelements-java-1.18.jar:?]
+	at com.sun.proxy.$Proxy34.getText(Unknown Source) ~[?:?]
+	at productCategories.modal.AddToCartModal.addToCartSuccessText(AddToCartModal.java:18) ~[classes/:?]
+	at Journey1.addItemsToBasket.addNewItemsToBasket(addItemsToBasket.java:27) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_161]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124) ~[testng-6.14.2.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580) [testng-6.14.2.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716) [testng-6.14.2.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988) [testng-6.14.2.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125) [testng-6.14.2.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109) [testng-6.14.2.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:648) [testng-6.14.2.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:505) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1049) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.2.jar:?]
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72) [testng-plugin.jar:?]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123) [testng-plugin.jar:?]
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#layer_cart > h2"}
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'ISVGRELT0002689', ip: '10.210.140.184', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: D:\Users\matthew.mccormick\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: ed3c73c52234641c047e809cf28c9f93
+*** Element info: {Using=css selector, value=#layer_cart > h2}
+	at sun.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_161]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_161]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214) ~[selenium-remote-driver-3.10.0.jar:?]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166) ~[selenium-remote-driver-3.10.0.jar:?]
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40) ~[selenium-remote-driver-3.10.0.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80) ~[selenium-remote-driver-3.10.0.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44) ~[selenium-remote-driver-3.10.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160) ~[selenium-remote-driver-3.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601) ~[selenium-remote-driver-3.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371) ~[selenium-remote-driver-3.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:465) ~[selenium-remote-driver-3.10.0.jar:?]
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430) ~[selenium-api-3.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363) ~[selenium-remote-driver-3.10.0.jar:?]
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_161]
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103) ~[selenium-support-3.10.0.jar:?]
+	at com.sun.proxy.$Proxy27.findElement(Unknown Source) ~[?:?]
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:186) ~[selenium-support-3.10.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69) ~[selenium-support-3.10.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:41) ~[selenium-support-3.10.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:157) ~[selenium-support-3.10.0.jar:?]
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:69) ~[selenium-support-3.10.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:87) ~[selenium-support-3.10.0.jar:?]
+	... 29 more
+2018-07-12 17:06:33.241 [main] INFO  com.frameworkium.core.ui.listeners.ScreenshotListener - Written screenshot to screenshots\1531411592850_addNewItemsToBasket.png
+2018-07-12 17:07:49.011 [main] DEBUG com.frameworkium.core.ui.driver.AbstractDriver - Browser Capabilities: Capabilities {browserName: chrome, chrome.prefs: {profile.password_manager_enabled: false}, chrome.switches: [--no-default-browser-check]}
+2018-07-12 17:07:52.135 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return navigator.userAgent;
+2018-07-12 17:07:52.165 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return navigator.userAgent;
+2018-07-12 17:07:52.168 [main] INFO  com.frameworkium.core.common.listeners.TestListener - START Journey1.addItemsToBasket.addNewItemsToBasket
+2018-07-12 17:07:52.203 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - navigate to http://automationpractice.com/index.php
+2018-07-12 17:07:56.468 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - navigated to http://automationpractice.com/index.php
+2018-07-12 17:07:56.502 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: login
+2018-07-12 17:07:56.520 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: login
+2018-07-12 17:07:56.552 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:07:56.559 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:07:56.559 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:07:56.565 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:07:56.566 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.LandingPage' successfully loaded
+2018-07-12 17:07:56.583 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:07:56.589 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:07:56.589 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:07:56.594 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:07:56.595 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.HeaderBarPage' successfully loaded
+2018-07-12 17:07:56.595 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: [href*='http://automationpractice.com/index.php?id_category='][href$='&controller=category']
+2018-07-12 17:07:56.612 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: [href*='http://automationpractice.com/index.php?id_category='][href$='&controller=category']
+2018-07-12 17:07:56.752 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: [href*='http://automationpractice.com/index.php?id_category='][href$='&controller=category']
+2018-07-12 17:07:58.125 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: [href*='http://automationpractice.com/index.php?id_category='][href$='&controller=category']
+2018-07-12 17:07:58.135 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:07:58.141 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:07:58.142 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:07:58.148 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:07:58.148 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.HeaderBarPage' successfully loaded
+2018-07-12 17:07:58.150 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:07:58.165 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:07:58.165 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:07:58.174 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:07:58.250 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:07:58.254 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:07:58.254 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:07:58.259 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:07:58.259 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'productCategories.itemCategoryPage' successfully loaded
+2018-07-12 17:07:58.259 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:07:58.268 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:07:58.268 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:07:58.276 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:07:58.276 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:07:59.555 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:07:59.555 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:07:59.571 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:07:59.572 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:08:00.771 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:08:00.771 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:08:00.783 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:08:00.784 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:08:01.747 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:08:01.748 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:08:01.757 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:08:01.757 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:08:02.920 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:08:02.920 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:08:02.940 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:08:02.940 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:08:03.866 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:08:03.866 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:08:03.878 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:08:03.878 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:08:05.087 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:08:05.088 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:08:05.097 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:08:05.097 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:08:05.991 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:08:05.991 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:08:06.001 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:08:06.002 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:08:07.350 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:08:07.350 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:08:07.362 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:08:07.362 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:08:08.544 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:08:08.544 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:08:08.555 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:08:08.555 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:08:09.886 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:08:09.886 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:08:09.897 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:08:09.898 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:08:10.718 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:08:10.734 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:08:10.741 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:08:10.741 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:08:10.745 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:08:10.746 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'productCategories.itemIndividualPage' successfully loaded
+2018-07-12 17:08:10.746 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: add_to_cart
+2018-07-12 17:08:10.760 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: add_to_cart
+2018-07-12 17:08:10.760 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with id: add_to_cart
+2018-07-12 17:08:10.817 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with id: add_to_cart
+2018-07-12 17:08:10.827 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:08:10.830 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:08:10.830 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:08:10.834 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:08:10.834 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'productCategories.modal.AddToCartModal' successfully loaded
+2018-07-12 17:08:10.835 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #layer_cart
+2018-07-12 17:08:10.848 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #layer_cart
+2018-07-12 17:08:11.338 [main] INFO  com.frameworkium.core.ui.listeners.ScreenshotListener - Written screenshot to screenshots\1531411690883_addNewItemsToBasket.png
+2018-07-12 17:08:11.343 [main] ERROR com.frameworkium.core.common.listeners.TestListener - FAIL  Journey1.addItemsToBasket.addNewItemsToBasket
+2018-07-12 17:08:11.343 [main] ERROR com.frameworkium.core.common.listeners.TestListener - expected:<[Product successfully added to your shopping cart]> but was:<[]>
+com.google.common.truth.Platform$ComparisonFailureWithCause: expected:<[Product successfully added to your shopping cart]> but was:<[]>
+	at Journey1.addItemsToBasket.addNewItemsToBasket(addItemsToBasket.java:27) ~[classes/:?]
+	at [[Reflective call: 4 frames collapsed (https://goo.gl/aH3UyP)]].(:0) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124) ~[testng-6.14.2.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580) [testng-6.14.2.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716) [testng-6.14.2.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988) [testng-6.14.2.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125) [testng-6.14.2.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109) [testng-6.14.2.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:648) [testng-6.14.2.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:505) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1049) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.2.jar:?]
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72) [testng-plugin.jar:?]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123) [testng-plugin.jar:?]
+2018-07-12 17:09:00.936 [main] DEBUG com.frameworkium.core.ui.driver.AbstractDriver - Browser Capabilities: Capabilities {browserName: chrome, chrome.prefs: {profile.password_manager_enabled: false}, chrome.switches: [--no-default-browser-check]}
+2018-07-12 17:09:04.085 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return navigator.userAgent;
+2018-07-12 17:09:04.113 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return navigator.userAgent;
+2018-07-12 17:09:04.116 [main] INFO  com.frameworkium.core.common.listeners.TestListener - START Journey1.addItemsToBasket.addNewItemsToBasket
+2018-07-12 17:09:04.152 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - navigate to http://automationpractice.com/index.php
+2018-07-12 17:09:08.838 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - navigated to http://automationpractice.com/index.php
+2018-07-12 17:09:08.872 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: login
+2018-07-12 17:09:08.891 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: login
+2018-07-12 17:09:08.920 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:09:08.927 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:09:08.927 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:09:08.933 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:09:08.934 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.LandingPage' successfully loaded
+2018-07-12 17:09:08.943 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:09:08.946 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:09:08.947 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:09:08.950 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:09:08.951 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.HeaderBarPage' successfully loaded
+2018-07-12 17:09:08.951 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: [href*='http://automationpractice.com/index.php?id_category='][href$='&controller=category']
+2018-07-12 17:09:08.967 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: [href*='http://automationpractice.com/index.php?id_category='][href$='&controller=category']
+2018-07-12 17:09:09.105 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: [href*='http://automationpractice.com/index.php?id_category='][href$='&controller=category']
+2018-07-12 17:09:10.429 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: [href*='http://automationpractice.com/index.php?id_category='][href$='&controller=category']
+2018-07-12 17:09:10.434 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:09:10.444 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:09:10.444 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:09:10.451 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:09:10.451 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.HeaderBarPage' successfully loaded
+2018-07-12 17:09:10.452 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:09:10.467 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:09:10.468 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:09:10.478 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:09:10.552 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:09:10.556 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:09:10.556 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:09:10.561 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:09:10.562 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'productCategories.itemCategoryPage' successfully loaded
+2018-07-12 17:09:10.562 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:09:10.572 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:09:10.572 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:09:10.582 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:09:10.582 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:09:11.620 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:09:11.620 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:09:11.636 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:09:11.636 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:09:12.750 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:09:12.750 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:09:12.765 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:09:12.765 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:09:13.659 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:09:13.659 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:09:13.670 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:09:13.671 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:09:14.962 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:09:14.962 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:09:14.972 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:09:14.972 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:09:16.021 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:09:16.021 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:09:16.034 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:09:16.034 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:09:17.170 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:09:17.170 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:09:17.185 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:09:17.185 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:09:18.026 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:09:18.026 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:09:18.038 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:09:18.038 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:09:19.167 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:09:19.168 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:09:19.192 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:09:19.193 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:09:20.178 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:09:20.178 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:09:20.191 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:09:20.191 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:09:21.396 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:09:21.397 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:09:21.408 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:09:21.409 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:09:22.447 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:09:22.455 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:09:22.463 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:09:22.463 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:09:22.469 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:09:22.469 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'productCategories.itemIndividualPage' successfully loaded
+2018-07-12 17:09:22.470 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: add_to_cart
+2018-07-12 17:09:22.482 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: add_to_cart
+2018-07-12 17:09:22.483 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with id: add_to_cart
+2018-07-12 17:09:22.531 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with id: add_to_cart
+2018-07-12 17:09:22.546 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:09:22.551 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:09:22.551 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:09:22.554 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:09:22.554 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'productCategories.modal.AddToCartModal' successfully loaded
+2018-07-12 17:09:22.554 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #layer_cart
+2018-07-12 17:09:22.568 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #layer_cart
+2018-07-12 17:09:23.069 [main] INFO  com.frameworkium.core.ui.listeners.ScreenshotListener - Written screenshot to screenshots\1531411762600_addNewItemsToBasket.png
+2018-07-12 17:09:23.082 [main] ERROR com.frameworkium.core.common.listeners.TestListener - FAIL  Journey1.addItemsToBasket.addNewItemsToBasket
+2018-07-12 17:09:23.082 [main] ERROR com.frameworkium.core.common.listeners.TestListener - expected:<[Product successfully added to your shopping cart]> but was:<[]>
+com.google.common.truth.Platform$ComparisonFailureWithCause: expected:<[Product successfully added to your shopping cart]> but was:<[]>
+	at Journey1.addItemsToBasket.addNewItemsToBasket(addItemsToBasket.java:27) ~[classes/:?]
+	at [[Reflective call: 4 frames collapsed (https://goo.gl/aH3UyP)]].(:0) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124) ~[testng-6.14.2.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580) [testng-6.14.2.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716) [testng-6.14.2.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988) [testng-6.14.2.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125) [testng-6.14.2.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109) [testng-6.14.2.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:648) [testng-6.14.2.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:505) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1049) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.2.jar:?]
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72) [testng-plugin.jar:?]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123) [testng-plugin.jar:?]
+2018-07-12 17:11:19.728 [main] DEBUG com.frameworkium.core.ui.driver.AbstractDriver - Browser Capabilities: Capabilities {browserName: chrome, chrome.prefs: {profile.password_manager_enabled: false}, chrome.switches: [--no-default-browser-check]}
+2018-07-12 17:11:22.819 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return navigator.userAgent;
+2018-07-12 17:11:22.874 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return navigator.userAgent;
+2018-07-12 17:11:22.875 [main] INFO  com.frameworkium.core.common.listeners.TestListener - START Journey1.addItemsToBasket.addNewItemsToBasket
+2018-07-12 17:11:22.911 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - navigate to http://automationpractice.com/index.php
+2018-07-12 17:11:27.674 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - navigated to http://automationpractice.com/index.php
+2018-07-12 17:11:27.712 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: login
+2018-07-12 17:11:27.730 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: login
+2018-07-12 17:11:27.763 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:11:27.771 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:11:27.771 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:11:27.777 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:11:27.778 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.LandingPage' successfully loaded
+2018-07-12 17:11:27.796 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:11:27.803 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:11:27.803 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:11:27.807 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:11:27.807 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.HeaderBarPage' successfully loaded
+2018-07-12 17:11:27.808 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: [href*='http://automationpractice.com/index.php?id_category='][href$='&controller=category']
+2018-07-12 17:11:27.824 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: [href*='http://automationpractice.com/index.php?id_category='][href$='&controller=category']
+2018-07-12 17:11:27.963 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: [href*='http://automationpractice.com/index.php?id_category='][href$='&controller=category']
+2018-07-12 17:11:29.324 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: [href*='http://automationpractice.com/index.php?id_category='][href$='&controller=category']
+2018-07-12 17:11:29.331 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:11:29.337 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:11:29.337 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:11:29.342 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:11:29.342 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.HeaderBarPage' successfully loaded
+2018-07-12 17:11:29.344 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:11:29.360 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:11:29.360 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:11:29.369 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:11:29.448 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:11:29.452 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:11:29.452 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:11:29.456 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:11:29.457 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'productCategories.itemCategoryPage' successfully loaded
+2018-07-12 17:11:29.457 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:11:29.463 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:11:29.463 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:11:29.473 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:11:29.473 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:11:30.566 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:11:30.566 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:11:30.583 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:11:30.583 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:11:31.855 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:11:31.856 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:11:31.867 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:11:31.868 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:11:32.739 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:11:32.739 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:11:32.750 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:11:32.750 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:11:34.622 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:11:34.623 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:11:34.691 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:11:34.693 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:11:36.102 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:11:36.102 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:11:36.171 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:11:36.172 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:11:37.845 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:11:37.846 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:11:37.879 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:11:37.879 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:11:39.247 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:11:39.247 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:11:39.270 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:11:39.271 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:11:40.878 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:11:40.878 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:11:40.922 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:11:40.923 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:11:42.372 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:11:42.372 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:11:42.396 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:11:42.396 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:11:44.120 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:11:44.121 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:11:44.161 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:11:44.162 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:11:45.520 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:11:45.543 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:11:45.555 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:11:45.556 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:11:45.572 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:11:45.572 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'productCategories.itemIndividualPage' successfully loaded
+2018-07-12 17:11:45.573 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: add_to_cart
+2018-07-12 17:11:45.606 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: add_to_cart
+2018-07-12 17:11:45.607 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with id: add_to_cart
+2018-07-12 17:11:45.719 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with id: add_to_cart
+2018-07-12 17:11:45.754 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:11:45.765 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:11:45.765 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:11:45.777 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:11:45.778 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'productCategories.modal.AddToCartModal' successfully loaded
+2018-07-12 17:11:45.778 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.xpath: //*[@id="layer_cart"]/div[1]/div[1]/h2/text()
+2018-07-12 17:11:45.835 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.xpath: //*[@id="layer_cart"]/div[1]/div[1]/h2/text()
+2018-07-12 17:11:46.107 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.xpath: //*[@id="layer_cart"]/div[1]/div[1]/h2/text()
+2018-07-12 17:11:46.380 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.xpath: //*[@id="layer_cart"]/div[1]/div[1]/h2/text()
+2018-07-12 17:11:46.654 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.xpath: //*[@id="layer_cart"]/div[1]/div[1]/h2/text()
+2018-07-12 17:11:46.934 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.xpath: //*[@id="layer_cart"]/div[1]/div[1]/h2/text()
+2018-07-12 17:11:47.213 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.xpath: //*[@id="layer_cart"]/div[1]/div[1]/h2/text()
+2018-07-12 17:11:47.481 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.xpath: //*[@id="layer_cart"]/div[1]/div[1]/h2/text()
+2018-07-12 17:11:47.749 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.xpath: //*[@id="layer_cart"]/div[1]/div[1]/h2/text()
+2018-07-12 17:11:48.018 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.xpath: //*[@id="layer_cart"]/div[1]/div[1]/h2/text()
+2018-07-12 17:11:48.286 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.xpath: //*[@id="layer_cart"]/div[1]/div[1]/h2/text()
+2018-07-12 17:11:48.554 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.xpath: //*[@id="layer_cart"]/div[1]/div[1]/h2/text()
+2018-07-12 17:11:48.822 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.xpath: //*[@id="layer_cart"]/div[1]/div[1]/h2/text()
+2018-07-12 17:11:49.088 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.xpath: //*[@id="layer_cart"]/div[1]/div[1]/h2/text()
+2018-07-12 17:11:49.358 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.xpath: //*[@id="layer_cart"]/div[1]/div[1]/h2/text()
+2018-07-12 17:11:49.624 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.xpath: //*[@id="layer_cart"]/div[1]/div[1]/h2/text()
+2018-07-12 17:11:49.892 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.xpath: //*[@id="layer_cart"]/div[1]/div[1]/h2/text()
+2018-07-12 17:11:50.159 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.xpath: //*[@id="layer_cart"]/div[1]/div[1]/h2/text()
+2018-07-12 17:11:50.427 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.xpath: //*[@id="layer_cart"]/div[1]/div[1]/h2/text()
+2018-07-12 17:11:50.693 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.xpath: //*[@id="layer_cart"]/div[1]/div[1]/h2/text()
+2018-07-12 17:11:50.962 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.xpath: //*[@id="layer_cart"]/div[1]/div[1]/h2/text()
+2018-07-12 17:11:50.986 [main] ERROR com.frameworkium.core.common.listeners.TestListener - FAIL  Journey1.addItemsToBasket.addNewItemsToBasket
+2018-07-12 17:11:50.987 [main] ERROR com.frameworkium.core.common.listeners.TestListener - Timed out after 5 seconds. Unable to locate the element
+org.openqa.selenium.NoSuchElementException: Timed out after 5 seconds. Unable to locate the element
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:91) ~[selenium-support-3.10.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-3.10.0.jar:?]
+	at ru.yandex.qatools.htmlelements.loader.decorator.proxyhandlers.WebElementNamedProxyHandler.invoke(WebElementNamedProxyHandler.java:44) ~[htmlelements-java-1.18.jar:?]
+	at com.sun.proxy.$Proxy34.getText(Unknown Source) ~[?:?]
+	at productCategories.modal.AddToCartModal.addToCartSuccessText(AddToCartModal.java:20) ~[classes/:?]
+	at Journey1.addItemsToBasket.addNewItemsToBasket(addItemsToBasket.java:27) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_161]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124) ~[testng-6.14.2.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580) [testng-6.14.2.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716) [testng-6.14.2.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988) [testng-6.14.2.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125) [testng-6.14.2.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109) [testng-6.14.2.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:648) [testng-6.14.2.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:505) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1049) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.2.jar:?]
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72) [testng-plugin.jar:?]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123) [testng-plugin.jar:?]
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: The result of the xpath expression "//*[@id="layer_cart"]/div[1]/div[1]/h2/text()" is: [object Text]. It should be an element.
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'ISVGRELT0002689', ip: '10.210.140.184', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: D:\Users\matthew.mccormick\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: d20367355755369304fd6053132e4e10
+*** Element info: {Using=xpath, value=//*[@id="layer_cart"]/div[1]/div[1]/h2/text()}
+	at sun.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_161]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_161]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214) ~[selenium-remote-driver-3.10.0.jar:?]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166) ~[selenium-remote-driver-3.10.0.jar:?]
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40) ~[selenium-remote-driver-3.10.0.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80) ~[selenium-remote-driver-3.10.0.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44) ~[selenium-remote-driver-3.10.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160) ~[selenium-remote-driver-3.10.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601) ~[selenium-remote-driver-3.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371) ~[selenium-remote-driver-3.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473) ~[selenium-remote-driver-3.10.0.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361) ~[selenium-api-3.10.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363) ~[selenium-remote-driver-3.10.0.jar:?]
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_161]
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103) ~[selenium-support-3.10.0.jar:?]
+	at com.sun.proxy.$Proxy27.findElement(Unknown Source) ~[?:?]
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:186) ~[selenium-support-3.10.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69) ~[selenium-support-3.10.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:41) ~[selenium-support-3.10.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:157) ~[selenium-support-3.10.0.jar:?]
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:69) ~[selenium-support-3.10.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:87) ~[selenium-support-3.10.0.jar:?]
+	... 29 more
+2018-07-12 17:11:51.491 [main] INFO  com.frameworkium.core.ui.listeners.ScreenshotListener - Written screenshot to screenshots\1531411911014_addNewItemsToBasket.png
+2018-07-12 17:12:24.101 [main] DEBUG com.frameworkium.core.ui.driver.AbstractDriver - Browser Capabilities: Capabilities {browserName: chrome, chrome.prefs: {profile.password_manager_enabled: false}, chrome.switches: [--no-default-browser-check]}
+2018-07-12 17:12:27.484 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return navigator.userAgent;
+2018-07-12 17:12:27.523 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return navigator.userAgent;
+2018-07-12 17:12:27.525 [main] INFO  com.frameworkium.core.common.listeners.TestListener - START Journey1.addItemsToBasket.addNewItemsToBasket
+2018-07-12 17:12:27.570 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - navigate to http://automationpractice.com/index.php
+2018-07-12 17:12:32.187 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - navigated to http://automationpractice.com/index.php
+2018-07-12 17:12:32.232 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: login
+2018-07-12 17:12:32.253 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: login
+2018-07-12 17:12:32.291 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:12:32.300 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:12:32.300 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:12:32.306 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:12:32.307 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.LandingPage' successfully loaded
+2018-07-12 17:12:32.326 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:12:32.333 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:12:32.333 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:12:32.340 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:12:32.340 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.HeaderBarPage' successfully loaded
+2018-07-12 17:12:32.341 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: [href*='http://automationpractice.com/index.php?id_category='][href$='&controller=category']
+2018-07-12 17:12:32.364 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: [href*='http://automationpractice.com/index.php?id_category='][href$='&controller=category']
+2018-07-12 17:12:32.557 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: [href*='http://automationpractice.com/index.php?id_category='][href$='&controller=category']
+2018-07-12 17:12:34.181 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: [href*='http://automationpractice.com/index.php?id_category='][href$='&controller=category']
+2018-07-12 17:12:34.192 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:12:34.198 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:12:34.199 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:12:34.206 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:12:34.206 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.HeaderBarPage' successfully loaded
+2018-07-12 17:12:34.208 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:12:34.224 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:12:34.224 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:12:34.234 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:12:34.316 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:12:34.320 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:12:34.320 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:12:34.324 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:12:34.324 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'productCategories.itemCategoryPage' successfully loaded
+2018-07-12 17:12:34.324 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:12:34.335 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:12:34.335 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:12:34.344 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:12:34.344 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:12:35.739 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:12:35.739 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:12:35.763 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:12:35.763 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:12:37.167 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:12:37.167 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:12:37.181 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:12:37.181 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:12:38.136 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:12:38.136 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:12:38.148 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:12:38.148 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:12:39.322 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:12:39.322 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:12:39.332 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:12:39.333 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:12:40.387 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:12:40.388 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:12:40.418 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:12:40.419 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:12:41.880 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:12:41.880 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:12:41.897 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:12:41.897 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:12:43.026 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:12:43.026 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:12:43.038 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:12:43.039 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:12:44.340 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:12:44.340 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:12:44.353 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:12:44.353 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:12:45.319 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:12:45.319 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:12:45.340 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:12:45.340 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:12:46.544 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-12 17:12:46.546 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-12 17:12:46.561 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-12 17:12:46.561 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-12 17:12:47.676 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-12 17:12:47.693 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:12:47.700 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:12:47.700 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:12:47.705 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:12:47.705 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'productCategories.itemIndividualPage' successfully loaded
+2018-07-12 17:12:47.705 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: add_to_cart
+2018-07-12 17:12:47.718 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: add_to_cart
+2018-07-12 17:12:47.718 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with id: add_to_cart
+2018-07-12 17:12:47.767 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with id: add_to_cart
+2018-07-12 17:12:47.785 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-12 17:12:47.791 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-12 17:12:47.791 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-12 17:12:47.797 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-12 17:12:47.797 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'productCategories.modal.AddToCartModal' successfully loaded
+2018-07-12 17:12:47.797 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.xpath: //*[@id="layer_cart"]/div[1]/div[1]/h2
+2018-07-12 17:12:47.813 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.xpath: //*[@id="layer_cart"]/div[1]/div[1]/h2
+2018-07-12 17:12:47.843 [main] ERROR com.frameworkium.core.common.listeners.TestListener - FAIL  Journey1.addItemsToBasket.addNewItemsToBasket
+2018-07-12 17:12:47.845 [main] ERROR com.frameworkium.core.common.listeners.TestListener - expected:<[Product successfully added to your shopping cart]> but was:<[]>
+com.google.common.truth.Platform$ComparisonFailureWithCause: expected:<[Product successfully added to your shopping cart]> but was:<[]>
+	at Journey1.addItemsToBasket.addNewItemsToBasket(addItemsToBasket.java:27) ~[classes/:?]
+	at [[Reflective call: 4 frames collapsed (https://goo.gl/aH3UyP)]].(:0) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124) ~[testng-6.14.2.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580) [testng-6.14.2.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716) [testng-6.14.2.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988) [testng-6.14.2.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125) [testng-6.14.2.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109) [testng-6.14.2.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:648) [testng-6.14.2.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:505) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1049) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.2.jar:?]
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72) [testng-plugin.jar:?]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123) [testng-plugin.jar:?]
+2018-07-12 17:12:48.267 [main] INFO  com.frameworkium.core.ui.listeners.ScreenshotListener - Written screenshot to screenshots\1531411967851_addNewItemsToBasket.png
+2018-07-13 11:26:49.574 [main] DEBUG com.frameworkium.core.ui.driver.AbstractDriver - Browser Capabilities: Capabilities {browserName: chrome, chrome.prefs: {profile.password_manager_enabled: false}, chrome.switches: [--no-default-browser-check]}
+2018-07-13 11:26:53.393 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return navigator.userAgent;
+2018-07-13 11:26:53.422 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return navigator.userAgent;
+2018-07-13 11:26:53.426 [main] INFO  com.frameworkium.core.common.listeners.TestListener - START Journey1.addItemsToBasket.addNewItemsToBasket
+2018-07-13 11:26:53.460 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - navigate to http://automationpractice.com/index.php
+2018-07-13 11:26:59.048 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - navigated to http://automationpractice.com/index.php
+2018-07-13 11:26:59.100 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: login
+2018-07-13 11:26:59.117 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: login
+2018-07-13 11:26:59.149 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-13 11:26:59.156 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-13 11:26:59.156 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-13 11:26:59.161 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-13 11:26:59.162 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.LandingPage' successfully loaded
+2018-07-13 11:26:59.174 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-13 11:26:59.178 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-13 11:26:59.178 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-13 11:26:59.183 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-13 11:26:59.183 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.HeaderBarPage' successfully loaded
+2018-07-13 11:26:59.183 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: [href*='http://automationpractice.com/index.php?id_category='][href$='&controller=category']
+2018-07-13 11:26:59.201 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: [href*='http://automationpractice.com/index.php?id_category='][href$='&controller=category']
+2018-07-13 11:26:59.341 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: [href*='http://automationpractice.com/index.php?id_category='][href$='&controller=category']
+2018-07-13 11:27:00.746 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: [href*='http://automationpractice.com/index.php?id_category='][href$='&controller=category']
+2018-07-13 11:27:00.755 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-13 11:27:00.762 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-13 11:27:00.763 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-13 11:27:00.770 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-13 11:27:00.771 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'HomePage.HeaderBarPage' successfully loaded
+2018-07-13 11:27:00.777 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-13 11:27:00.795 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-13 11:27:00.795 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-13 11:27:00.806 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-13 11:27:00.936 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-13 11:27:00.941 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-13 11:27:00.941 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-13 11:27:00.945 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-13 11:27:00.945 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'productCategories.itemCategoryPage' successfully loaded
+2018-07-13 11:27:00.945 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-13 11:27:00.952 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-13 11:27:00.953 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-13 11:27:00.962 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-13 11:27:00.962 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-13 11:27:02.418 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-13 11:27:02.418 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-13 11:27:02.451 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-13 11:27:02.451 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-13 11:27:03.865 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-13 11:27:03.865 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-13 11:27:03.885 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-13 11:27:03.885 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-13 11:27:05.511 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-13 11:27:05.511 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-13 11:27:05.529 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-13 11:27:05.529 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-13 11:27:06.936 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-13 11:27:06.936 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-13 11:27:06.950 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-13 11:27:06.950 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-13 11:27:08.238 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-13 11:27:08.238 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-13 11:27:08.259 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-13 11:27:08.260 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-13 11:27:09.861 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-13 11:27:09.861 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-13 11:27:09.875 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-13 11:27:09.875 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-13 11:27:11.098 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-13 11:27:11.099 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-13 11:27:11.112 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-13 11:27:11.113 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-13 11:27:12.580 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-13 11:27:12.580 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-13 11:27:12.593 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-13 11:27:12.593 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-13 11:27:13.708 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-13 11:27:13.708 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-13 11:27:13.723 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.cssSelector: #columns > div.breadcrumb.clearfix > a
+2018-07-13 11:27:13.723 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-13 11:27:15.116 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with css selector: #columns > div.breadcrumb.clearfix > a
+2018-07-13 11:27:15.117 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.className: product_img_link
+2018-07-13 11:27:15.134 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.className: product_img_link
+2018-07-13 11:27:15.134 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with class name: product_img_link
+2018-07-13 11:27:16.817 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with class name: product_img_link
+2018-07-13 11:27:16.832 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-13 11:27:16.839 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-13 11:27:16.839 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-13 11:27:16.847 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-13 11:27:16.847 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'productCategories.itemIndividualPage' successfully loaded
+2018-07-13 11:27:16.847 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.id: add_to_cart
+2018-07-13 11:27:16.868 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.id: add_to_cart
+2018-07-13 11:27:16.869 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - click element with id: add_to_cart
+2018-07-13 11:27:16.940 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - clicked element with id: add_to_cart
+2018-07-13 11:27:16.960 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof angular == 'object';
+2018-07-13 11:27:16.966 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof angular == 'object';
+2018-07-13 11:27:16.966 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - running script return typeof ng == 'object';
+2018-07-13 11:27:16.973 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - ran script return typeof ng == 'object';
+2018-07-13 11:27:16.973 [main] DEBUG com.frameworkium.core.common.reporting.allure.AllureLogger - Logged to allure: Page 'productCategories.modal.AddToCartModal' successfully loaded
+2018-07-13 11:27:16.973 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - find element By.xpath: //*[@id="layer_cart"]/div[1]/div[1]/h2
+2018-07-13 11:27:16.995 [main] DEBUG com.frameworkium.core.ui.listeners.LoggingListener - found element By.xpath: //*[@id="layer_cart"]/div[1]/div[1]/h2
+2018-07-13 11:27:17.521 [main] INFO  com.frameworkium.core.ui.listeners.ScreenshotListener - Written screenshot to screenshots\1531477637045_addNewItemsToBasket.png
+2018-07-13 11:27:17.533 [main] ERROR com.frameworkium.core.common.listeners.TestListener - FAIL  Journey1.addItemsToBasket.addNewItemsToBasket
+2018-07-13 11:27:17.533 [main] ERROR com.frameworkium.core.common.listeners.TestListener - expected:<[Product successfully added to your shopping cart]> but was:<[]>
+com.google.common.truth.Platform$ComparisonFailureWithCause: expected:<[Product successfully added to your shopping cart]> but was:<[]>
+	at Journey1.addItemsToBasket.addNewItemsToBasket(addItemsToBasket.java:27) ~[classes/:?]
+	at [[Reflective call: 4 frames collapsed (https://goo.gl/aH3UyP)]].(:0) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124) ~[testng-6.14.2.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580) [testng-6.14.2.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716) [testng-6.14.2.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988) [testng-6.14.2.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125) [testng-6.14.2.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109) [testng-6.14.2.jar:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:648) [testng-6.14.2.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:505) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.14.2.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1049) [testng-6.14.2.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.2.jar:?]
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72) [testng-plugin.jar:?]
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123) [testng-plugin.jar:?]

@@ -10,7 +10,6 @@ import ru.yandex.qatools.htmlelements.annotations.Name;
 public class AccountPage extends BasePage<AccountPage>
 {
     //Elements
-
     @Visible
     @Name("My Account Header")
     @FindBy(className = "page-heading")

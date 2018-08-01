@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6b5c3eb-c977-4972-a1b3-8d245da9ee27" name="Default" comment="Added new NavTab method to cover all tabs in header page.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/AutomationPracticeJourneyTests/logs/frameworkium.log" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/logs/frameworkium.log" />
+      <change beforePath="$PROJECT_DIR$/AutomationPracticeJourneyTests/src/main/java/Journey1/addItemsToBasket.java" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/src/main/java/Journey1/addItemsToBasket.java" />
+      <change beforePath="$PROJECT_DIR$/AutomationPracticeJourneyTests/src/main/java/Journey1/loginExistingUser.java" afterPath="$PROJECT_DIR$/AutomationPracticeJourneyTests/src/main/java/Journey1/loginExistingUser.java" />
+      <change beforePath="$PROJECT_DIR$/AutomationPracticePage/src/main/java/HomePage/AccountPage.java" afterPath="$PROJECT_DIR$/AutomationPracticePage/src/main/java/HomePage/AccountPage.java" />
+      <change beforePath="$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/itemIndividualPage.java" afterPath="$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/itemIndividualPage.java" />
+      <change beforePath="$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/modal/AddToCartModal.java" afterPath="$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/modal/AddToCartModal.java" />
+      <change beforePath="$PROJECT_DIR$/utilities/src/main/java/DataProviders/accounts.java" afterPath="$PROJECT_DIR$/utilities/src/main/java/DataProviders/accounts.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/AutomationPracticeJourneyTests/target/" />
@@ -24,92 +31,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="addItemsToBasket.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AutomationPracticeJourneyTests/src/main/java/Journey1/addItemsToBasket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="20" column="48" lean-forward="false" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="itemCategoryPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/itemCategoryPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loginExistingUser.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AutomationPracticeJourneyTests/src/main/java/Journey1/loginExistingUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="accounts.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utilities/src/main/java/DataProviders/accounts.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LandingPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AutomationPracticePage/src/main/java/HomePage/LandingPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1201#1202#0" expanded="true" />
-                <element signature="e#1268#1269#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Navigation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utilities/src/main/java/constants/Navigation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="92" lean-forward="false" selection-start-line="4" selection-start-column="92" selection-end-line="4" selection-end-column="92" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="itemIndividualPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/itemIndividualPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AddToCartModal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/modal/AddToCartModal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="273">
+              <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+              <folding>
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AutomationPracticePage/src/main/java/HomePage/AccountPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding>
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginExistingUser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AutomationPracticeJourneyTests/src/main/java/Journey1/loginExistingUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addItemsToBasket.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AutomationPracticeJourneyTests/src/main/java/Journey1/addItemsToBasket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,7 +108,6 @@
         <option value="$PROJECT_DIR$/AutomationPracticeJourneyTests/pom.xml" />
         <option value="$PROJECT_DIR$/AutomationPracticeJourneyTests/src/main/java/Journey1/registerNewUser.java" />
         <option value="$PROJECT_DIR$/AutomationPracticePage/src/main/java/HomePage/tShirtsPage.java" />
-        <option value="$PROJECT_DIR$/AutomationPracticePage/src/main/java/HomePage/AccountPage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/AutomationPracticePage/src/main/java/HomePage/RegisterSignInPage.java" />
         <option value="$PROJECT_DIR$/utilities/src/main/java/constants/Navigation.java" />
@@ -151,13 +117,15 @@
         <option value="$PROJECT_DIR$/AutomationPracticePage/src/main/java/HomePage/dressesPage.java" />
         <option value="$PROJECT_DIR$/AutomationPracticePage/src/main/java/HomePage/itemCategoryPage.java" />
         <option value="$PROJECT_DIR$/AutomationPracticePage/src/main/java/HomePage/itemIndividualPage.java" />
-        <option value="$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/itemIndividualPage.java" />
-        <option value="$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/modal/AddToCartModal.java" />
         <option value="$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/Elements/ProductElements.java" />
-        <option value="$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/itemCategoryPage.java" />
-        <option value="$PROJECT_DIR$/AutomationPracticeJourneyTests/src/main/java/Journey1/addItemsToBasket.java" />
         <option value="$PROJECT_DIR$/utilities/src/main/java/DataProviders/accounts.java" />
+        <option value="$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/itemCategoryPage.java" />
+        <option value="$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/itemIndividualPage.java" />
+        <option value="$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/AddToCartModal.java" />
+        <option value="$PROJECT_DIR$/AutomationPracticePage/src/main/java/HomePage/AccountPage.java" />
+        <option value="$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/modal/AddToCartModal.java" />
         <option value="$PROJECT_DIR$/AutomationPracticeJourneyTests/src/main/java/Journey1/loginExistingUser.java" />
+        <option value="$PROJECT_DIR$/AutomationPracticeJourneyTests/src/main/java/Journey1/addItemsToBasket.java" />
       </list>
     </option>
   </component>
@@ -168,7 +136,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
@@ -189,10 +157,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,6 +208,60 @@
               <item name="AutoTestWeb" type="462c0819:PsiDirectoryNode" />
               <item name="AutomationPracticeJourneyTests" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTestWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTestWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="AutomationPracticePage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTestWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTestWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="AutomationPracticePage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTestWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTestWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="AutomationPracticePage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTestWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTestWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="AutomationPracticePage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTestWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTestWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="AutomationPracticePage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HomePage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTestWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTestWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="AutomationPracticePage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="productCategories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTestWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTestWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="AutomationPracticePage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="productCategories" type="462c0819:PsiDirectoryNode" />
+              <item name="modal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutoTestWeb" type="b2602c69:ProjectViewProjectNode" />
@@ -315,7 +337,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.loginExistingUser">
+  <component name="RunManager" selected="TestNG.addItemsToBasket">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -399,7 +421,7 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-Dbrowser=chrome -Dproxy=https://172.17.7.1:8080 -Dwebdriver.chrome.driver=&quot;D:\Drivers\chromedriver.exe&quot;" />
+      <option name="VM_PARAMETERS" value="-Dbrowser=chrome  -Dwebdriver.chrome.driver=&quot;D:\Drivers\chromedriver.exe&quot;" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <option name="OUTPUT_DIRECTORY" value="" />
@@ -431,7 +453,7 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-Dbrowser=chrome -Dproxy=https://172.17.7.1:8080 -Dwebdriver.chrome.driver=&quot;D:\Drivers\chromedriver.exe&quot;" />
+      <option name="VM_PARAMETERS" value="-Dbrowser=chrome  -Dwebdriver.chrome.driver=&quot;D:\Drivers\chromedriver.exe&quot;" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <option name="OUTPUT_DIRECTORY" value="" />
@@ -463,7 +485,7 @@
       <option name="METHOD_NAME" value="addNewItemsToBasket" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-Dbrowser=chrome -Dproxy=https://172.17.7.1:8080 -Dwebdriver.chrome.driver=&quot;D:\Drivers\chromedriver.exe&quot;" />
+      <option name="VM_PARAMETERS" value="-Dbrowser=chrome  -Dwebdriver.chrome.driver=&quot;D:\Drivers\chromedriver.exe&quot;" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <option name="OUTPUT_DIRECTORY" value="" />
@@ -495,42 +517,7 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-Dbrowser=chrome -Dproxy=https://172.17.7.1:8080 -Dwebdriver.chrome.driver=&quot;D:\Drivers\chromedriver.exe&quot;" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" value="" />
-      <envs />
-      <properties />
-      <listeners />
-      <method>
-        <option name="Make" enabled="false" />
-      </method>
-    </configuration>
-    <configuration name="loginExistingUser.loginAsExistingUser" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Journey1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="AutomationPracticeJourneyTests" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="Journey1" />
-      <option name="MAIN_CLASS_NAME" value="Journey1.loginExistingUser" />
-      <option name="METHOD_NAME" value="loginAsExistingUser" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-Dbrowser=chrome -Dproxy=https://172.17.7.1:8080 -Dwebdriver.chrome.driver=&quot;D:\Drivers\chromedriver.exe&quot;" />
+      <option name="VM_PARAMETERS" value="-Dbrowser=chrome  -Dwebdriver.chrome.driver=&quot;D:\Drivers\chromedriver.exe&quot;" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <option name="OUTPUT_DIRECTORY" value="" />
@@ -552,20 +539,18 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.loginExistingUser" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.loginExistingUser.loginAsExistingUser" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Journey1 in AutomationPracticeJourneyTests" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.loginExistingUser" />
       <item index="2" class="java.lang.String" itemvalue="TestNG.addItemsToBasket.addNewItemsToBasket" />
       <item index="3" class="java.lang.String" itemvalue="TestNG.addItemsToBasket" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Journey1 in AutomationPracticeJourneyTests" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.loginExistingUser" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="TestNG.addItemsToBasket" />
         <item index="1" class="java.lang.String" itemvalue="TestNG.addItemsToBasket.addNewItemsToBasket" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.loginExistingUser.loginAsExistingUser" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.addItemsToBasket" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.Journey1 in AutomationPracticeJourneyTests" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.loginExistingUser" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Journey1 in AutomationPracticeJourneyTests" />
       </list>
     </recent_temporary>
   </component>
@@ -606,96 +591,69 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="loginExistingUser - 2018.07.09 at 12h 40m 46s.xml">
+    <history-entry file="addItemsToBasket - 2018.07.12 at 17h 09m 24s.xml">
+      <configuration name="addItemsToBasket" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="addItemsToBasket - 2018.07.13 at 11h 27m 19s.xml">
+      <configuration name="addItemsToBasket" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="addItemsToBasket_addNewItemsToBasket - 2018.07.12 at 17h 06m 34s.xml">
+      <configuration name="addItemsToBasket.addNewItemsToBasket" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="addItemsToBasket_addNewItemsToBasket - 2018.07.12 at 17h 11m 54s.xml">
+      <configuration name="addItemsToBasket.addNewItemsToBasket" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="addItemsToBasket_addNewItemsToBasket - 2018.07.12 at 17h 12m 50s.xml">
+      <configuration name="addItemsToBasket.addNewItemsToBasket" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="loginExistingUser - 2018.07.12 at 16h 16m 36s.xml">
       <configuration name="loginExistingUser" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="loginExistingUser - 2018.07.09 at 12h 44m 28s.xml">
+    <history-entry file="loginExistingUser - 2018.07.12 at 16h 16m 56s.xml">
       <configuration name="loginExistingUser" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="loginExistingUser - 2018.07.09 at 12h 45m 07s.xml">
+    <history-entry file="loginExistingUser - 2018.07.12 at 16h 18m 02s.xml">
       <configuration name="loginExistingUser" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="loginExistingUser - 2018.07.09 at 12h 46m 57s.xml">
+    <history-entry file="loginExistingUser - 2018.07.12 at 16h 19m 11s.xml">
       <configuration name="loginExistingUser" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="loginExistingUser - 2018.07.09 at 12h 47m 39s.xml">
-      <configuration name="loginExistingUser" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="loginExistingUser - 2018.07.09 at 12h 48m 11s.xml">
-      <configuration name="loginExistingUser" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="loginExistingUser - 2018.07.09 at 12h 50m 29s.xml">
-      <configuration name="loginExistingUser" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="loginExistingUser - 2018.07.09 at 12h 54m 24s.xml">
-      <configuration name="loginExistingUser" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="loginExistingUser - 2018.07.10 at 12h 47m 19s.xml">
-      <configuration name="loginExistingUser" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="loginExistingUser - 2018.07.10 at 13h 17m 46s.xml">
+    <history-entry file="loginExistingUser - 2018.07.12 at 16h 20m 22s.xml">
       <configuration name="loginExistingUser" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.330033" sideWeight="0.52708334" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.330033" sideWeight="0.47291666" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13958333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39933994" sideWeight="0.49375" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278328" sideWeight="0.4875" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278328" sideWeight="0.4875" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852387" sideWeight="0.49140626" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278328" sideWeight="0.49140626" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993576" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278328" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.330033" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24895833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -716,7 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -724,11 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -757,7 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -766,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -774,11 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="43" column="58" lean-forward="false" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -807,7 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -831,7 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -850,7 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="25" column="50" lean-forward="false" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -858,13 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AutomationPracticePage/src/main/java/HomePage/RegisterSignInPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="38" column="20" lean-forward="false" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -931,17 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AutomationPracticePage/src/main/java/HomePage/AccountPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding>
-            <element signature="e#611#612#0" expanded="false" />
-            <element signature="e#683#684#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/reflect/Method.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -971,35 +895,63 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/Elements/ProductElements.java" />
-    <entry file="file://$PROJECT_DIR$/AutomationPracticeJourneyTests/target/allure-results/1aadacda-57d9-4ec9-9551-813e5599787e-testsuite.xml">
+    <entry file="file://$PROJECT_DIR$/AutomationPracticeJourneyTests/target/allure-results/1aadacda-57d9-4ec9-9551-813e5599787e-testsuite.xml" />
+    <entry file="file://$PROJECT_DIR$/utilities/src/main/java/constants/Navigation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="84">
+          <caret line="4" column="92" lean-forward="false" selection-start-line="4" selection-start-column="92" selection-end-line="4" selection-end-column="92" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AutomationPracticeJourneyTests/src/main/java/Journey1/addItemsToBasket.java">
+    <entry file="file://$PROJECT_DIR$/utilities/src/main/java/DataProviders/accounts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/itemCategoryPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="20" column="48" lean-forward="false" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+          <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutomationPracticePage/src/main/java/HomePage/LandingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutomationPracticePage/src/main/java/HomePage/RegisterSignInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/itemIndividualPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutomationPracticeJourneyTests/src/main/java/Journey1/loginExistingUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/itemCategoryPage.java">
+    <entry file="file://$PROJECT_DIR$/AutomationPracticeJourneyTests/src/main/java/Journey1/addItemsToBasket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/itemIndividualPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="546">
+          <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1008,46 +960,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AutomationPracticePage/src/main/java/productCategories/modal/AddToCartModal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AutomationPracticePage/src/main/java/HomePage/LandingPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="273">
+          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utilities/src/main/java/constants/Navigation.java">
+    <entry file="file://$PROJECT_DIR$/AutomationPracticePage/src/main/java/HomePage/AccountPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="92" lean-forward="false" selection-start-line="4" selection-start-column="92" selection-end-line="4" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utilities/src/main/java/DataProviders/accounts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AutomationPracticeJourneyTests/src/main/java/Journey1/loginExistingUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="273">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,8 +1,10 @@
 package productCategories;
 
 import com.frameworkium.core.ui.pages.BasePage;
+import com.frameworkium.core.ui.pages.PageFactory;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import productCategories.modal.AddToCartModal;
 import ru.yandex.qatools.allure.annotations.Step;
 import ru.yandex.qatools.htmlelements.annotations.Name;
 
@@ -13,9 +15,9 @@ public class itemIndividualPage extends BasePage<itemIndividualPage>
     private WebElement addToCartButton;
 
     @Step("Click Add To Cart Button on the item page")
-    public itemIndividualPage clickAddToCart()
+    public AddToCartModal clickAddToCart()
     {
         addToCartButton.click();
-        return this;
+        return PageFactory.newInstance(AddToCartModal.class);
     }
 }
