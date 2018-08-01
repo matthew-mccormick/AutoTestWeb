@@ -12,13 +12,15 @@ public class loginExistingUser extends BaseUITest
     @Test(description = "Registering a new user at Automation Practice", dataProvider = "Existing Users", dataProviderClass = DataProviders.accounts.class)
     public void loginAsExistingUser(String email, String password)
     {
-        LandingPage landingPage = LandingPage
-                .open();
+        LandingPage landingPage = LandingPage.open();
+
         AccountPage accountPage = landingPage
                 .clickSignIn()
                 .sendEmailText(email)
                 .sendPasswordText(password)
                 .clickLoginButton();
-        assertThat(accountPage.getLoginSuccessText()).isEqualTo("my account");
+
+        assertThat(accountPage.getLoginSuccessText())
+                .isEqualTo("my account");
     }
 }
